@@ -33,6 +33,10 @@ def on_key(event):
         move_paddle(left, -PADDLE_STEP)
     elif key == "s":
         move_paddle(left, PADDLE_STEP)
+    elif key == "up":
+        move_paddle(right, -PADDLE_STEP)
+    elif key == "down":
+        move_paddle(right, PADDLE_STEP)
     # TODO (Aufgabe 1): Rechten Schläger mit den Pfeiltasten (Up/Down) steuern.
 
 
